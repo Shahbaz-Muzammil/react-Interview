@@ -1,0 +1,17 @@
+.proditem{
+    margin: 10 px ;
+     padding: 10px ;
+     justify-content: center;
+     border: 2px solid chocolate;
+ 
+  background-color: beige;
+
+}
+.prodlist{
+    margin: 10 px ;
+    padding: 10px ;
+    /* border: 2px solid chocolate; */
+ /* justify-content: center; */
+ background-color:coral;
+
+}

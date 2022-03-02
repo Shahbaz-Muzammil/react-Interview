@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+        var continent="asia";
+        function outerFunc() {
+            var country ="india";
+            var state="MH";
+            function innerFunc(){
+                var dist = "Nanded";
+                var city = "Nanded";
+            function subInner(){
+                
+            }
+                console.log(" ",country," ",this.state," ",this.city);
+
+            }
+            innerfunc();
+        }
+        outerFunc()
+    </script>
+</head>
+<body>
+    <h1>this is closure </h1>
+    
+</body>
+</html>
+<!-- lexical scope -->closuree 
